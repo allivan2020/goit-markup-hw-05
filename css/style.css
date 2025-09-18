@@ -537,7 +537,7 @@ img {
 .input-btn:focus {
   background-color: var(--ocean);
 }
-`
+
 /* ----------MODAL------------ */
 .backdrop {
   background-color: var(--navy-blue-modal);

@@ -498,6 +498,10 @@ img {
   letter-spacing: 0.02em;
   color: var(--white);
 }
+.footer-input-form {
+  display: flex;
+  align-items: center;
+}
 .footer-lable {
 }
 .footer-input-mail {
@@ -516,7 +520,9 @@ img {
 }
 .input-btn {
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 
   font-weight: 500;
   font-size: 16px;
@@ -536,6 +542,9 @@ img {
 .input-btn:hover,
 .input-btn:focus {
   background-color: var(--ocean);
+}
+` .footer-svg {
+  fill: var(--white);
 }
 
 /* ----------MODAL------------ */
